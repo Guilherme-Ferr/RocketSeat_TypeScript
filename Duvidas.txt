@@ -1,0 +1,28 @@
+/**
+ * GET      => Buscar informação
+ * POST     => Inserir informação
+ * PUT      => Atualizar informação
+ * DELETE   => Deletar informação
+ * PATCH    => Atualziar informação especifica
+ */
+
+/**
+ * Tipos de parametros
+ * Route Params     => http://localhost:3000/produtos
+ * Query Params     => http://localhost:3000/produtos?name=teclado&description=razer
+ * 
+ * Body Params      =>{
+ *  "name": "Teclado",
+ *  "description": "Teclado Bom da Razer",
+ * }
+*/
+
+app.get("/teste/{id}", (request, response) => {
+    
+
+    return response.send("Ola")
+})
+
+app.post("/teste/post" ,(request, response) => {
+    return response.send("Ola Post")
+})

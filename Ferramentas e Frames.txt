@@ -1,0 +1,6 @@
+Express.js (ou somente Express) é um Framework para o desenvolvimento de aplicações JavaScript com o Node.js.
+
+Yarn é um gerenciador de dependências/pacotes, permitindo o reaproveitamento de código e, por consequência, 
+acelerando o desenvolvimento em contraste com o armazenamento de códigos JavaScript em outros projetos. 
+
+ORM são frameworks que pegam o codigo e transformam para uma forma que o banco de dados entenda
